@@ -77,39 +77,34 @@ pip install Keras
 ## Uputstvo za kreiranje virtualne mašine (VM)
 
 
-Pored ručne instalacije svih alata potrebnih za Soft Computing, moguće je koristiti i virtualnu mašinu
-na kojoj su svi ovi alati već instalirani, ali je u pitanju Linux Mint 17.2 distribucija. 
-Ova VM će se koristiti i na samim vežbama.
-
-17-10-2015: Očekujemo uskoro da ćemo dobiti potrebni hosting za pomenutu VM, kako bi se mogla preuzeti online.
-Ako je nije moguće preuzeti online, možete je iskopirati sa nekih od računara u Park City-ju.
-
-
 ### Instalacija virtualne mašine
 
 1. Instalirati **Oracle VM VirtualBox (ver 5.x)**.
 
-2. Preuzeti datoteke **AnacondaVM.7z** sa https://drive.google.com/folderview?id=0B1ZJXQY32LBUVThuZkNmQ0VjMVk&usp=sharing
+2. Preuzeti **ftn-ai-lab-2016-vm.7z** sa https://www.dropbox.com/s/ee9on8sivqu5mnq/ftn-ai-lab-2016-vm.7z?dl=1
 
-3. Raspakovati datoteku **AnacondaVM.7z** -> dobiće se datoteka **AnacondaVM.vdi**.
+3. Raspakovati datoteku **ftn-ai-lab-2016-vm.7z**
 
-4. Otvoriti VirtualBox i napraviti novu VM: New -> Name: AnacondaVM, Type: Linux, Version: Ubuntu (64-bit) -> Next.
+4. Otvoriti VirtualBox i napraviti novu VM: New -> Name: ftn-ai-lab-2016-vm, Type: Linux, Version: Ubuntu (64-bit) -> Next.
 
-5. Dodeliti bar 2GB (2048 MB) RAM za VM -> Next.
+5. Dodeliti **bar 2GB (2048 MB) RAM** za VM -> Next.
 
-6. Izabrati **Use an existing virtual hard disk file** i sa diska odabrati datoteku **AnacondaVM.vdi** -> Create.
+6. Izabrati **Use an existing virtual hard disk file** i sa diska odabrati datoteku **ftn-ai-lab-2016-vm.vdi** -> Create.
 
-7. Pokrenuti AnacondaVM virtualnu mašinu.
+7. Pokrenuti **ftn-ai-lab-2016-vm** virtualnu mašinu.
 
+#### Kredencijali korisnika
 
-### Ako VM ne može da se pokrene
+*username*: student
 
-1. Unutar **VirtualBox** -> desni klik na AnacondaVM -> Remove -> Remove only
+*password*: student
 
-2. Za svaki slučaj, pronaći gde se nalazi direktorijum **VirtualBox VMs** (u fajl sistemu) 
-i ako u njemu postoji folder **AnacondaVM**, obrisati samo taj folder.
+### Šta se nalazi u VM?
 
-3. Uraditi sve od 4. koraka u **Instalacija virutalne mašine**
+* Linux Mint 17.3
+* Python 2.7 + Anaconda 4.2.0
+* Tensorflow 0.11
+* Keras (bleeding-edge verzija sa git-a)
 
 ### Python IDE
 
