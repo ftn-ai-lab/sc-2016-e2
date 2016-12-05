@@ -57,11 +57,34 @@ def pnt2line(pnt, start, end):
     line_unitvec = unit(line_vec)
     pnt_vec_scaled = scale(pnt_vec, 1.0/line_len)
     t = dot(line_unitvec, pnt_vec_scaled)    
+    r = 1
     if t < 0.0:
         t = 0.0
+        r = -1
     elif t > 1.0:
         t = 1.0
+        r = -1
     nearest = scale(line_vec, t)
     dist = distance(nearest, pnt_vec)
     nearest = add(nearest, start)
-    return (dist, (int(nearest[0]), int(nearest[1])))
+    return (dist, (int(nearest[0]), int(nearest[1])), r)
+
+def pnt2line2(pnt, start, end):
+    line_vec = vector(start, end)
+    pnt_vec = vector(start, pnt)
+    line_len = length(line_vec)
+    line_unitvec = unit(line_vec)
+    pnt_vec_scaled = scale(pnt_vec, 1.0/line_len)
+    t = dot(line_unitvec, pnt_vec_scaled)    
+    r = 1
+    if t < 0.0:
+        t = 0.0
+        r = -1
+    elif t > 1.0:
+        t = 1.0
+        r = -1
+    nearest = scale(line_vec, t)
+    dist = distance(nearest, pnt_vec)
+    nearest = add(nearest, start)
+    return (dist, (int(nearest[0]), int(nearest[1])), r)
+
