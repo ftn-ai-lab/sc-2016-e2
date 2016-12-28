@@ -22,7 +22,7 @@ Studenti koji se odluče za **temu po svom izboru**, preporučljivo je da se pre
 **Donošenje tuđih projekata će biti najstožije kažnjavano zabranom odbrane projekta na period od godinu dana. Sva vaša rešenja će biti analizirana, a preklapanja od bar 50% će se smatrati plagijatima.**
 
 ## Prijava projekta
-Rok za prijavu projekta je **05.01.2016. do 12h.**
+Rok za prijavu projekta je **05.01.2017. do 12h.**
 
 Rok za završetak izrade projekta je kraj januara meseca. Termin odbrane projekata će biti naknadno objavljen, a isti će biti početkom februara meseca.
 
