@@ -10,3 +10,9 @@ Korisno:
 - http://cvgl.stanford.edu/projects/uav_data/
 - https://gym.openai.com/docs
 - https://docs.google.com/spreadsheets/d/1AQvZ7-Kg0lSZtG1wlgbIsrm90HaTZrJGQMz-uKRRlFw/edit#gid=0
+
+Knjige i materijali:
+- http://www.deeplearningbook.org/
+- http://karpathy.github.io/neuralnets/
+- http://norvig.com/
+- http://aima.cs.berkeley.edu/
