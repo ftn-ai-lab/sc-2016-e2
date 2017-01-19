@@ -16,3 +16,4 @@ Knjige i materijali:
 - http://karpathy.github.io/neuralnets/
 - http://norvig.com/
 - http://aima.cs.berkeley.edu/
+- http://deeplearning.net/tutorial/deeplearning.pdf
