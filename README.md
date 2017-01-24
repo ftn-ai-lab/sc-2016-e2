@@ -17,3 +17,4 @@ Knjige i materijali:
 - http://norvig.com/
 - http://aima.cs.berkeley.edu/
 - http://deeplearning.net/tutorial/deeplearning.pdf
+- https://arxiv.org/pdf/1608.04481v1.pdf
